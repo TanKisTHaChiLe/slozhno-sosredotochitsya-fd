@@ -125,19 +125,19 @@
   padding: 0 10px;
 }
 
+.main section:not(:last-of-type) {
+  margin-bottom: 50px;
+}
 
+/* <----------section_content_1 / 2----------> */
 
-/* <----------section_content_1----------> */
-
-.section_content_1 {
+.section_content_1, .section_content_2, .section_content_3 {
   display: grid;
   gap: 20px;
 }
 
-.section_content_list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.section_content_list li:not(:last-child){
+  margin-bottom: 20px;
 }
 
 .section_title {  
@@ -145,11 +145,6 @@
   font-weight: 700; 
   color: var(--accent-color);
   font-size: 18px;
-}
-
-.title_decor {
-  background-color: var(--accent-color);
-  color: var(--title-color);
 }
 
 .card {
@@ -161,4 +156,9 @@
 .card_text {
   margin-top: 10px;
   color: var(--text-color)
+}
+
+.title_decor {
+  background-color: var(--accent-color);
+  color: var(--title-color);
 }
