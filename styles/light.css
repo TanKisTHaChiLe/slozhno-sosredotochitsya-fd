@@ -9,12 +9,12 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --main-title-color: #FFC2E6;
-  --h1-shadow-color: #FF8DCB;
-  --h2-shadow-color: #FF0070;
-  --accent-color: #FF8DCB;
+  --main-title-color: #ffc2e6;
+  --h1-shadow-color: #ff8dcb;
+  --h2-shadow-color: #ff0070;
+  --accent-color: #ff8dcb;
   --button-color: #353430;
-  --button-hover-color: #32312D66;
+  --button-hover-color: #32312d66;
   --title-color: #353430;
   --text-color: #353430;
   --header-background-image: url(../images/cover-image-light.png);
@@ -27,13 +27,13 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем переменные светлой темы */    
-    --main-title-color: #FFC2E6;
-    --h1-shadow-color: #FF8DCB;
-    --h2-shadow-color: #FF0070;
-    --accent-color: #FF8DCB;
+    /* Дублируем переменные светлой темы */
+    --main-title-color: #ffc2e6;
+    --h1-shadow-color: #ff8dcb;
+    --h2-shadow-color: #ff0070;
+    --accent-color: #ff8dcb;
     --button-color: #353430;
-    --button-hover-color: #32312D66;
+    --button-hover-color: #32312d66;
     --title-color: #353430;
     --text-color: #353430;
     --header-background-image: url(../images/cover-image-light.png);
