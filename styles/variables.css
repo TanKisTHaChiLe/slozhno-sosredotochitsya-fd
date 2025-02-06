@@ -1,6 +1,10 @@
 :root {
-  --h1-color: #DB00FF;
+  --main-title-color: #DB00FF;
+  --h1-shadow-color: #FF0070;
+  --h2-shadow-color: #FF0070;
   --accent-color: #FF0070;
+  --button-color: #FF0070;
+  --button-hover-color: #ff007066;
   --title-color: #000028;
   --text-color: #F1B2CE;
   --header-background-image: url(../images/cover-image-dark.png);
