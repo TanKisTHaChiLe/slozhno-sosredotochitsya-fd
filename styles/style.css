@@ -6,6 +6,7 @@
   background-position: center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: var(--bg-color);
   display: grid;
   gap: 40px;
 }
