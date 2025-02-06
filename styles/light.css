@@ -10,12 +10,14 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-color: #fff1f7;
-  --main-title-color: #323232;
-  --h1-shadow-color: #ff8dcb;
-  --h2-shadow-color: #ff0070;
+  --main-title-color: #FFC2E6;
+  --decor-element-color: #353430;
+  --header-title-shadow-color: #ff8dcb;
+  --footer-title-shadow-color: #ff0070;
   --accent-color: #ff8dcb;
   --button-color: #353430;
   --button-hover-color: #32312d66;
+  --section-main-title-color: #353430;
   --title-color: #353430;
   --text-color: #353430;
   --header-background-image: url(../images/cover-image-light.png);
@@ -28,20 +30,21 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    /* Дублируем переменные светлой темы */
     --bg-color: #fff1f7;
-    --main-title-color: #ffc2e6;
-    --h1-shadow-color: #ff8dcb;
-    --h2-shadow-color: #ff0070;
+    --main-title-color: #FFC2E6;
+    --decor-element-color: #353430;
+    --header-title-shadow-color: #ff8dcb;
+    --footer-title-shadow-color: #ff0070;
     --accent-color: #ff8dcb;
     --button-color: #353430;
     --button-hover-color: #32312d66;
+    --section-main-title-color: #353430;
     --title-color: #353430;
     --text-color: #353430;
     --header-background-image: url(../images/cover-image-light.png);
     --main-font: IBM Plex Mono;
   }
-  .theme-auto .decor-text {
+  .decor-text {
     display: none;
   }
 }

@@ -1,11 +1,13 @@
 :root {
   --bg-color: #000028;
   --main-title-color: #db00ff;
-  --h1-shadow-color: #ff0070;
-  --h2-shadow-color: #ff0070;
+  --decor-element-color: #ff0070;
+  --header-title-shadow-color: #ff0070;
+  --footer-title-shadow-color: #ff0070;
   --accent-color: #ff0070;
   --button-color: #ff0070;
   --button-hover-color: #ff007066;
+  --section-main-title-color: #ff0070;
   --title-color: #000028;
   --text-color: #f1b2ce;
   --header-background-image: url(../images/cover-image-dark.png);
