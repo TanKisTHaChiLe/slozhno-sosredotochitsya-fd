@@ -24,6 +24,7 @@
   --main-font: IBM Plex Mono;
 }
 
-.theme-dark .page {
+.theme-dark .decor-text {
+  display: flex;
   /* Вам также нужно будет написать ряд подобных селекторов */
 }
